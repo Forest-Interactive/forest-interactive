@@ -1,0 +1,17 @@
+{
+  "name": "botengine-webhook-example",
+  "description": "Node.js webhook example using Cloud Functions for Firebase",
+  "version": "0.0.1",
+  "author": "BotEngine.ai",
+  "scripts": {
+    "start": "firebase serve --only functions:fulfillment",
+    "deploy": "firebase deploy --only functions:fulfillment"
+  },
+  "dependencies": {
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^0.5.7"
+  },
+  "engines": {
+    "node": "~6.0"
+  }
+}
